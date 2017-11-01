@@ -6,7 +6,7 @@
 
 * Sürüm numaraları ve etiketler dil dosyalarını etkileyen [laravel/laravel](https://github.com/laravel/laravel/tags) sürümleridir, **laravel/framework sürümleri değildir**. Dil dosyaları için ayrıca tarafımızca verilen sürüm numaraları yoktur.
 * "Master" ağacı güncel çalışma ağacıdır.
-* Laravel 5.1 LTS için 5.1 ağacını kullanınız ve 5.1.* şeklindeki dosyalardan son sürümü indiriniz.
+* Laravel 5.5 LTS için 5.5 ağacını kullanınız ve 5.5.* şeklindeki dosyalardan son sürümü indiriniz.
 * Laravel sürümünüze göre mevcut en uyumlu etiketi indirip kullanabilirsiniz.
 
 
