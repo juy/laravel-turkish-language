@@ -1,15 +1,13 @@
 # Laravel Türkçe dil dosyaları
 
-> "[Laravel Türkiye](http://laravel.gen.tr/)" topluluğuna ait "[laravel-tr/Laravel5-lang](https://github.com/laravel-tr/Laravel5-lang)" deposundan klonlanıp devamlılığı sağlanmıştır.
+> "[Laravel Türkiye](http://laravel.gen.tr/)" topluluğuna ait "[laravel-tr/Laravel5-lang](https://github.com/laravel-tr/Laravel5-lang)" deposundan klonlanıp devamlılığı sağlanmaktadır.
 
 ## Sürümler ve ağaçlar
 
 * Sürüm numaraları ve etiketler dil dosyalarını etkileyen [laravel/laravel](https://github.com/laravel/laravel/tags) sürümleridir, **laravel/framework sürümleri değildir**. Dil dosyaları için ayrıca tarafımızca verilen sürüm numaraları yoktur.
 * "Master" ağacı güncel çalışma ağacıdır.
-* Laravel 5.5 LTS için 5.5 ağacını kullanınız ve 5.5.* şeklindeki dosyalardan son sürümü indiriniz.
+* Laravel 5.5 LTS için "5.5" ağacını kullanınız veya 5.5.* şeklindeki dosyalardan son sürümü indiriniz.
 * Laravel sürümünüze göre mevcut en uyumlu etiketi indirip kullanabilirsiniz.
-
-
 
 ## Dil dosyası kurulumu
 
@@ -21,8 +19,7 @@
 
 `config/app.php` dosyasındaki, **locale** kısmındaki **en** ifadesini **tr** olarak değiştiriniz. Sonuç aşağıdaki gibi olacaktır:
 
-```php
-//'locale' => 'en', 
+```php 
 'locale' => 'tr', 
 ```
 
