@@ -93,6 +93,7 @@ return [
     'not_in'               => 'Seçili :attribute geçersiz.',
     'not_regex'            => ':attribute biçimi geçersiz.',
     'numeric'              => ':attribute rakam olmalıdır.',
+    'password'             => 'Parola hatalı.',
     'present'              => ':attribute alanı var olmalıdır.',
     'regex'                => ':attribute biçimi geçersiz.',
     'required'             => ':attribute alanı gereklidir.',
