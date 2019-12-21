@@ -1,13 +1,14 @@
+
 # Laravel Türkçe dil dosyaları
 
 > "[Laravel Türkiye](http://laravel.gen.tr/)" topluluğuna ait "[laravel-tr/Laravel5-lang](https://github.com/laravel-tr/Laravel5-lang)" deposundan klonlanıp devamlılığı sağlanmaktadır.
 
 ## Sürümler ve ağaçlar
 
-* Sürüm numaraları ve etiketler dil dosyalarını etkileyen [laravel/laravel](https://github.com/laravel/laravel/tags) sürümleridir, **laravel/framework sürümleri değildir**. Dil dosyaları için ayrıca tarafımızca verilen sürüm numaraları yoktur.
-* "Master" ağacı güncel çalışma ağacıdır.
-* Laravel 5.5 LTS için "5.5" ağacını kullanınız veya 5.5.* şeklindeki dosyalardan son sürümü indiriniz.
+* Sürüm numaraları ve etiketler dil dosyalarını etkileyen [laravel/laravel](https://github.com/laravel/laravel/tags) sürümleridir, **[laravel/framework](https://github.com/laravel/framework)  sürümleri değildir**. 'php artisan --version' komutu ile görülen sürüm laravel/framework sürümüdür. 
+* "**Master**" ağacı güncel çalışma ağacıdır ve tarafımızca gerçekleştirilen en güncel çalışmayı ihtiva eder.
 * Laravel sürümünüze göre mevcut en uyumlu etiketi indirip kullanabilirsiniz.
+
 
 ## Dil dosyası kurulumu
 
