@@ -18,7 +18,7 @@ return [
     'after'      => ':attribute değeri, :date tarihinden daha sonraki bir tarih olmalıdır.',
     'after_or_equal' => ':attribute değeri, :date tarihinden daha sonraki veya aynı tarih olmalıdır.',
     'alpha'      => ':attribute sadece harflerden oluşmalıdır.',
-    'alpha_dash' => ':attribute sadece harfler, rakamlar ve tirelerden oluşmalıdır.',
+    'alpha_dash' => ':attribute sadece harfler, rakamlar ve tireler ve altçizgilerden oluşmalıdır.',
     'alpha_num'  => ':attribute sadece harfler ve rakamlar içermelidir.',
     'array'      => ':attribute dizi olmalıdır.',
     'before'     => ':attribute değeri, :date tarihinden daha önceki bir tarih olmalıdır.',
@@ -32,6 +32,7 @@ return [
     'boolean'        => ':attribute alanı sadece doğru veya yanlış olabilir.',
     'confirmed'      => ':attribute tekrarı eşleşmiyor.',
     'date'           => ':attribute geçerli bir tarih olmalıdır.',
+'date_equals' => 'The :attribute must be a date equal to :date.',
     'date_format'    => ':attribute :format biçimi ile eşleşmiyor.',
     'different'      => ':attribute ile :other birbirinden farklı olmalıdır.',
     'digits'         => ':attribute :digits rakam olmalıdır.',
@@ -39,9 +40,22 @@ return [
     'dimensions'     => ':attribute geçersiz resim ölçülerine sahiptir.',
     'distinct'       => ':attribute alanı tekrarlanan bir değere sahiptir.',
     'email'          => ':attribute doğru bir e-posta olmalıdır.',
+'ends_with' => 'The :attribute must end with one of the following: :values',
     'exists'         => 'Seçili olan :attribute geçersiz.',
     'file'           => ':attribute dosya olmalıdır.',
     'filled'         => ':attribute alanı bir değer içermelidir.',
+'gt' => [
+    'numeric' => 'The :attribute must be greater than :value.',
+    'file' => 'The :attribute must be greater than :value kilobytes.',
+    'string' => 'The :attribute must be greater than :value characters.',
+    'array' => 'The :attribute must have more than :value items.',
+],
+'gte' => [
+    'numeric' => 'The :attribute must be greater than or equal :value.',
+    'file' => 'The :attribute must be greater than or equal :value kilobytes.',
+    'string' => 'The :attribute must be greater than or equal :value characters.',
+    'array' => 'The :attribute must have :value items or more.',
+],
     'image'          => ':attribute resim dosyası olmalıdır.',
     'in'             => ':attribute değeri geçersiz.',
     'in_array'       => ':attribute değeri :other içinde mevcut değil.',
@@ -50,6 +64,18 @@ return [
     'ipv4'           => ':attribute geçerli bir IPv4 adresi olmalıdır.',
     'ipv6'           => ':attribute geçerli bir IPv6 adresi olmalıdır.',
     'json'           => ':attribute geçerli bir JSON dizesi olmalıdır.',
+'lt' => [
+    'numeric' => 'The :attribute must be less than :value.',
+    'file' => 'The :attribute must be less than :value kilobytes.',
+    'string' => 'The :attribute must be less than :value characters.',
+    'array' => 'The :attribute must have less than :value items.',
+],
+'lte' => [
+    'numeric' => 'The :attribute must be less than or equal :value.',
+    'file' => 'The :attribute must be less than or equal :value kilobytes.',
+    'string' => 'The :attribute must be less than or equal :value characters.',
+    'array' => 'The :attribute must not have more than :value items.',
+],
     'max'            => [
         'numeric' => ':attribute değeri :max değerinden büyük olmamalıdır.',
         'file'    => ':attribute değeri :max kilobayt değerinden büyük olmamalıdır.',
@@ -83,11 +109,13 @@ return [
         'string'  => ':attribute :size karakter olmalıdır.',
         'array'   => ':attribute :size nesneye sahip olmalıdır.',
     ],
+'starts_with' => 'The :attribute must start with one of the following: :values',
     'string'   => ':attribute karakterlerden oluşmalıdır.',
     'timezone' => ':attribute geçerli bir zaman bölgesi olmalıdır.',
     'unique'   => ':attribute daha önceden kayıt edilmiş.',
     'uploaded' => ':attribute yüklenirken hata oluştu.',
     'url'      => ':attribute biçimi geçersiz.',
+'uuid' => 'The :attribute must be a valid UUID.',
 
     /*
     |--------------------------------------------------------------------------
@@ -111,9 +139,9 @@ return [
     | Custom Validation Attributes
     |--------------------------------------------------------------------------
     |
-    | The following language lines are used to swap attribute place-holders
-    | with something more reader friendly such as E-Mail Address instead
-    | of "email". This simply helps us make messages a little cleaner.
+    | The following language lines are used to swap our attribute placeholder
+    | with something more reader friendly such as "E-Mail Address" instead
+    | of "email". This simply helps us make our message more expressive.
     |
     */
 
