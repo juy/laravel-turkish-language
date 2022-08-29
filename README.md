@@ -14,7 +14,7 @@
 
 ### Dosyaların kopyalanması
 
-İndirdiğiniz dosyaların içindeki `tr/` dizinini Laravel'e ait olan `resources/lang/` dizini içerisine kopyalayınız.
+İndirdiğiniz dosyaların içindeki `tr/` dizinini Laravel'e ait olan `lang/` dizini içerisine kopyalayınız.
 
 ### Laravel yazılımını Türkçe dilinde kullanma
 
