@@ -81,6 +81,7 @@ return [
         'string'  => ':attribute, :value veya daha az karakterden oluşmalıdır.',
         'array'   => ':attribute, :value veya daha az elemana sahip olmalıdır.',
     ],
+'mac_address' => 'The :attribute must be a valid MAC address.',
     'max'            => [
         'numeric' => ':attribute değeri :max değerinden büyük olmamalıdır.',
         'file'    => ':attribute değeri :max kilobayt değerinden büyük olmamalıdır.',
