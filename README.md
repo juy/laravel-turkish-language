@@ -24,7 +24,7 @@
 'locale' => 'tr',
 ```
 
-## Hata bildirimi ve öneriler
+## 💬 Hata bildirimi ve öneriler
 
 Tüm hata ve önerilerinizi Github üzerinden [bildirim açarak](https://github.com/juy/laravel-turkish-language/issues/new) yapabilirsiniz.
 
